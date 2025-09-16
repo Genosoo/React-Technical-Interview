@@ -21,6 +21,6 @@
 > *This screenshot demonstrates the total amount and change section after checkout.*
 
 **How to install**
-> Download the file and open the your code editor "VS code"
-> In Terminal run "npm install"
-> To show the application "npm run dev"
+> 1. Download the file and open the your code editor "VS code"
+> 2. In Terminal run "npm install"
+> 3. To show the application "npm run dev"
