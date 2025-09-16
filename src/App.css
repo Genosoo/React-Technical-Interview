@@ -1,0 +1,165 @@
+.search-box{
+    background-color: rgb(237, 233, 233);
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box span{
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+.search-box input{
+    padding: 10px 20px;
+    border:none;
+    border-radius:5px;
+    outline: none;
+}
+
+.search-box button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(43, 42, 42);
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.product-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.btn-addtocart{
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(239, 239, 6);
+}
+.btn-addtocart:hover{
+    background-color: rgb(43, 42, 42);
+    color: rgb(239, 239, 6);
+    transition-duration: 200ms;
+}
+
+.product-box{
+    display: flex;
+    gap: 10px;
+}
+
+.product-box div{
+    display: flex;
+    align-content: center;
+    flex-direction:column;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+.product-box div input{
+    padding: 20px;
+    border: none;
+    background-color:rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.product-box span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.table {
+    margin-bottom: 4px;
+    background-color: rgb(237, 233, 233);
+    padding: 10px;
+
+}
+
+.table tr{
+    border-bottom: 1px solid #000;
+}
+
+.table tbody tr{
+    text-align: center;
+}
+
+
+.table-container h2{
+    padding: 0;
+    height: 0;
+}
+
+
+.btn-remove{
+    border: none;
+    background-color: rgb(255, 93, 93);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.summary-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.summary-box{
+    background-color: rgb(237, 233, 233);
+    padding: 10px 20px;
+    display: flex;
+    width: 200px;
+}
+
+.summary-box input{
+    border: none;
+    border-radius:5px;
+    font-size: 1rem;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+}
+
+.summary-box p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.btn-savetransac{
+    background-color:rgb(114, 228, 114);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    height: 80px;
+}
+
+.btn-savetransac:hover{
+    background-color: rgb(43, 42, 42);
+    color:rgb(114, 228, 114);
+    transition-duration: 200ms;
+}
+
+
+.st-container{
+    background-color: rgb(237, 233, 233);
+    padding: 20px;
+    margin-top: 10px
+}
