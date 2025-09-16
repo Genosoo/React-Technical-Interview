@@ -19,3 +19,8 @@
 ![Shopping Cart Screenshot 2](./src/assets/image2.png)
 
 > *This screenshot demonstrates the total amount and change section after checkout.*
+
+**How to install**
+> Download the file and open the your code editor "VS code"
+> In Terminal run "npm install"
+> To show the application "npm run dev"
